@@ -1,0 +1,62 @@
+body{
+    height: 100vh;
+    color:white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.inputCity{
+    color:grey;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.card{
+    box-shadow: 5px 5px 5px black;
+    text-align: center;
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0.383);
+    margin: auto 2rem auto 2rem;
+    
+}
+.grid{
+    
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 0.5fr);
+    grid-template-rows: 0.5fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+
+/* 
+    
+}
+
+input{
+    color: grey;
+    text-align: center;
+    width: 3rem;
+}
+button {
+    background: none;
+    border-radius: 50%;
+    border: 2px solid black;
+ }
+ button:hover {
+   background-color: black;
+   color: white;
+ }
+
+
+
+
+
+
+
+
+
+
+ img{
+     width: 15rem;
+ } */
